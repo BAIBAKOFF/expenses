@@ -27,13 +27,6 @@ const INITIAL_COSTS = [
 const App = () => {
   const [costs, setCosts] = useState(INITIAL_COSTS);
 
-  // return React.createElement(
-  //   "div",
-  //   {},
-  //   React.createElement("h1", {}, "Начнем изучение React!"),
-  //   React.createElement(Costs, { costs: costs })
-  // );
-
   const addCostHandler = (cost) => {
     //Обновления состояние.
     //Берем прошлые данные prevCosts и добавляем к новым
