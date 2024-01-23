@@ -36,11 +36,11 @@ const CostForm = (props) => {
     <form onSubmit={onSubmitHandler}>
       <div className="new-cost__controls">
         <div className="new-cost__control">
-          <label>Название</label>
+          <label>Name</label>
           <input type="text" value={inputName} onChange={nameChangeHandler} />
         </div>
         <div className="new-cost__control">
-          <label>Сумма</label>
+          <label>Sum</label>
           <input
             type="number"
             value={inputAmount}
@@ -50,7 +50,7 @@ const CostForm = (props) => {
           />
         </div>
         <div className="new-cost__control">
-          <label>Дата</label>
+          <label>Date</label>
           <input
             type="date"
             value={inputDate}
@@ -60,9 +60,9 @@ const CostForm = (props) => {
           />
         </div>
         <div className="new-cost__actions">
-          <button type="sumbit">Добавить Расход</button>
+          <button type="sumbit">Add Expense</button>
           <button type="button" onClick={props.onCancel}>
-            Отмена
+            Cancel
           </button>
         </div>
       </div>
