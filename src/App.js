@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Costs from "./components/Costs/Costs";
-// import CostsFilter from "./components/Costs/CostsFilter";
 import Newcost from "./components/NewCost/NewCost";
 
 const INITIAL_COSTS = [
