@@ -3,7 +3,7 @@ import CostItem from "./CostItem";
 
 const ConsList = (props) => {
   if (props.costs.length === 0) {
-    return <h2 className="cost-list__fallback">В этом году расходов нет</h2>;
+    return <h2 className="cost-list__fallback">There are no expenses this year</h2>;
   }
 
   return (
